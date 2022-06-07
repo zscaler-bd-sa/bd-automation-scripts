@@ -1,4 +1,17 @@
 (function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+/* Uncomment this section, if you intend to use authentication
+	//TOKEN CHECK
+	var authenticated = false;
+	var token = request.getHeader("X-TFE-Notification-Signature");
+	gs.info("terraform_integration check of header Notification-Signature: "+token)
+	if(token && token == "INSERT YOUR SHA512 TOKEN FROM TERRAFORM CLOUD HERE")
+	authenticated = true;
+
+	if(!authenticated)
+	response.setError("No valid token provided");
+	//TOKEN CHECK
+*/
     var data = request.body.data;
 
     // Will only be triggered if it is a pending Terraform apply

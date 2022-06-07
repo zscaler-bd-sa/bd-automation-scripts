@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-06-06 12:01:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>zscaler</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>868941a32f334110a760a85df699b67f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>85114e232f374110a760a85df699b672</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_93da59272f734110a760a85df699b6f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Usage by Web API">5fda59272f734110a760a85df699b6e7</grid_canvas><height>10</height><portal_widget display_value="Created 2016-01-21 16:17:26">e364fbd29f811200ef4afa7dc67fcf6b</portal_widget><posx>0</posx><posy>30</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:14:15</sys_created_on><sys_id>93da59272f734110a760a85df699b6f1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>5fda59272f734110a760a85df699b6e7</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_93da59272f734110a760a85df699b6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:28</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>-1591168201</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>01114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b51230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>5fda59272f734110a760a85df699b6e7</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>22ead9271573411067cccd92167e1a6e</update_guid>
+<update_guid_history>22ead9271573411067cccd92167e1a6e:-1591168201,17da5927957341104d95f542e72835f2:-1826441739</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ca4f652f2fb34110a760a85df699b6cd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;category=TFE run^state=6^EQ&lt;item display_value="TFE run" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="TFE run"/&gt;&lt;item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Terraform Apply a Run&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    gs.info("Preparing to send TFE API request version 2" + " INCIDENT EVENTS BR " + current.number);
+    // On the Scripted Rest API that receives TFE notification, we put the json data on the incident's description
+    // In this block we will reverse that to a json object
+    var parser = new JSON();
+    var str = current.description;
+    var obj = parser.decode(str);
+    try {
+        var r = new sn_ws.RESTMessageV2('Terraform Notifications', 'Apply a Run');
+		r.setLogLevel("all");
+
+		//add a run id to parameters of the message
+        r.setStringParameterNoEscape("run_id", obj.run_id);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+    } catch (ex) {
+        var message = ex.message;
+    } finally {
+        gs.info("API call to TFE was successful");
+        requestBody = r ? r.getRequestBody() : null;
+    }
+
+    gs.info("V2 Request Body: " + requestBody + " INCIDENT EVENTS BR " + current.number);
+    gs.info("V2 Response: " + responseBody + " INCIDENT EVENTS BR " + current.number);
+    gs.info("V2 HTTP Status: " + status + " INCIDENT EVENTS BR " + current.number);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-06 10:47:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ca4f652f2fb34110a760a85df699b6cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Terraform Apply a Run&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ca4f652f2fb34110a760a85df699b6cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 11:07:51&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ca4f652f2fb34110a760a85df699b6cd"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2122525948</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>01114e232f374110a760a85df699b677</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138b31f900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table>incident</table>
+<target_name>Terraform Apply a Run</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>9bd4b52714f3411073cfdfb8906850a4</update_guid>
+<update_guid_history>9bd4b52714f3411073cfdfb8906850a4:2122525948,c06439e31ef34110f6cd4b40ba0a9f86:-1934528509,2e43f12373f34110b31d3c9e53ee5d85:439343709,e830b9af6bb341108df099ba2283c983:-1673388244</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_incident_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="category" table="incident" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>category</element><name>incident</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_id>68b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="Incident" source="com.snc.incident">58b7bee345910110a86630cf9552f396</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_incident_category</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-02-02 09:22:52</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Inquiry / Help</label><language>en</language><name>incident</name><sequence>0</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>60b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:43:12</sys_updated_on><value>inquiry</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>TFE run</label><language>en</language><name>incident</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:43:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d23f696f2fb34110a760a85df699b680</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 11:05:25</sys_updated_on><value>TFE run</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Software</label><language>en</language><name>incident</name><sequence>1</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a0b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:43:12</sys_updated_on><value>software</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Hardware</label><language>en</language><name>incident</name><sequence>2</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e0b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:43:12</sys_updated_on><value>hardware</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Network</label><language>en</language><name>incident</name><sequence>3</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>24b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:43:12</sys_updated_on><value>network</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Database</label><language>en</language><name>incident</name><sequence>4</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2022-02-02 09:22:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>64b7bee345910110a86630cf9552f3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:43:12</sys_updated_on><value>database</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1961254492</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>05114e232f374110a760a85df699b673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138b0e54a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.Category</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>7744fde3fff341104c0d252b8b595f2a</update_guid>
+<update_guid_history>7744fde3fff341104c0d252b8b595f2a:-1961254492,072231235ff34110d64e5731813e2d9c:1054441913,163f696f75b3411089a56a7eaed82f85:-1090746801</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_d2ecedab2fb34110a760a85df699b64e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>run_id</name><rest_message_function display_value="Cancel a Run">8decadab2fb34110a760a85df699b6df</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:33:07</sys_created_on><sys_id>d2ecedab2fb34110a760a85df699b64e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>run_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_d2ecedab2fb34110a760a85df699b64e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:33:07</sys_updated_on><type>string</type><value/></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-66413235</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>05114e232f374110a760a85df699b676</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138934f240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>run_id</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>96ecedab92b341107cc43c6619a0544f</update_guid>
+<update_guid_history>96ecedab92b341107cc43c6619a0544f:-66413235</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_6ea3e9ef2f734110a760a85df699b668</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>run_id</name><rest_message_function display_value="Send Notification">404651ab2f334110a760a85df699b610</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:52:42</sys_created_on><sys_id>6ea3e9ef2f734110a760a85df699b668</sys_id><sys_mod_count>1</sys_mod_count><sys_name>run_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_6ea3e9ef2f734110a760a85df699b668</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:53:29</sys_updated_on><type>string</type><value>TESTKEY</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-2083383899</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>09114e232f374110a760a85df699b675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181386f06870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>run_id</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>f9d329efce7341109945dafed29e4bd3</update_guid>
+<update_guid_history>f9d329efce7341109945dafed29e4bd3:-2083383899,aaa3e9ef3a734110c838dcf7987a156a:-503991419</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_3efcedab2fb34110a760a85df699b65c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Forcefully cancel a run</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Terraform Notifications [ Forcefully cancel a run ]</qualified_name><rest_endpoint>https://app.terraform.io/api/v2/runs/${run_id}/actions/force-cancel</rest_endpoint><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:33:25</sys_created_on><sys_id>3efcedab2fb34110a760a85df699b65c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Forcefully cancel a run</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_3efcedab2fb34110a760a85df699b65c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:33:25</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1766475206</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>0d114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813893957c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Forcefully cancel a run</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>befcedab8ab341109f0069639bcefb5d</update_guid>
+<update_guid_history>befcedab8ab341109f0069639bcefb5d:1766475206</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_b24da1eb2fb34110a760a85df699b69b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>run_id</name><rest_message_function display_value="Forcefully execute a run">6d4d61eb2fb34110a760a85df699b675</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:34:46</sys_created_on><sys_id>b24da1eb2fb34110a760a85df699b69b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>run_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_b24da1eb2fb34110a760a85df699b69b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:34:46</sys_updated_on><type>string</type><value/></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-742701681</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>41114e232f374110a760a85df699b676</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813894d4840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>run_id</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>764da1ebdfb34110c7ae062c0d01489c</update_guid>
+<update_guid_history>764da1ebdfb34110c7ae062c0d01489c:-742701681</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_8decadab2fb34110a760a85df699b6df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Cancel a Run</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Terraform Notifications [ Cancel a Run ]</qualified_name><rest_endpoint>https://app.terraform.io/api/v2/runs/${run_id}/actions/cancel</rest_endpoint><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:33:01</sys_created_on><sys_id>8decadab2fb34110a760a85df699b6df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cancel a Run</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_8decadab2fb34110a760a85df699b6df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:33:01</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1629573659</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>45114e232f374110a760a85df699b675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181389338130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Cancel a Run</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>01ecadab74b34110cf452e70a29b90e1</update_guid>
+<update_guid_history>01ecadab74b34110cf452e70a29b90e1:1629573659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_19ccede72fb34110a760a85df699b637</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Discard a Run</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Terraform Notifications [ Discard a Run ]</qualified_name><rest_endpoint>https://app.terraform.io/api/v2/runs/${run_id}/actions/discard</rest_endpoint><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:32:29</sys_created_on><sys_id>19ccede72fb34110a760a85df699b637</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Discard a Run</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_19ccede72fb34110a760a85df699b637</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:32:29</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>515759019</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>49114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813892bc380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Discard a Run</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>9dccede7fcb34110e502bd29c2f02438</update_guid>
+<update_guid_history>9dccede7fcb34110e502bd29c2f02438:515759019</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_e89acd632f334110a760a85df699b65a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;incident&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var data = request.body.data;
+
+    // Will only be triggered if it is a pending Terraform apply
+    // Sample TFE payload: https://www.terraform.io/docs/enterprise/api/notification-configurations.html#sample-payload:
+    if (data.notifications[0].trigger == 'run:needs_attention') {
+        var run_url = data.run_url.toString();
+        var run_id = data.run_id.toString();
+        var organization_name = data.organization_name.toString();
+        var workspace_name = data.workspace_name.toString();
+        var run_created_by = data.run_created_by.toString();
+        var message = data.notifications[0].message.toString();
+
+        var grI = new GlideRecord('sys_user');
+
+        gs.log(gs.getUserID());
+
+        grI.addQuery('sys_id', gs.getUserID());
+
+        grI.queryNoDomain();
+
+        if (grI.next()) {
+            // Creates a new incident
+            var gr = new GlideRecord('incident');
+            gr.initialize();
+            gr.setValue('category', 'TFE run');
+            gr.setValue('subcategory', 'Confirm apply');
+            gr.setValue('short_description', 'Confirm apply for ' + organization_name + '/' + workspace_name);
+
+            // This will store the json object from Terraform in the description field
+            var parser = new JSON();
+            var str = parser.encode(data);
+            gr.setValue('description', str);
+
+            // Feel free to change per organization's needs
+            gr.setValue('comments', 'Created by ' + run_created_by);
+            gr.setValue('urgency', '3');
+            gr.setValue('impact', '3');
+            gr.setValue('caller_id', 'n/a');
+            gr.setValue('contact_type', 'WebService');
+            gr.setValue('company', grI.getValue('company'));
+            gr.setValue('location', grI.getValue('location'));
+            gr.setValue('caller_id', gs.getUserID());
+            gr.sys_domain = gs.getUser().getDomainID();
+            gr.insert();
+
+            var number = gr.getValue('number');
+            var state = gr.state;
+
+            return {
+                "incident_number": number,
+                "state": state,
+                "domain": gr.getDisplayValue('sys_domain')
+            };
+        }
+    } else {
+        gs.info("Received notification from Terraform, but it wasn't a pending apply");
+        gs.info("Terraform request: " + request.body.data.toString());
+    }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/zsca2/terraform_integration&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/&lt;/relative_path&gt;&lt;request_example&gt;{&amp;#13;
+  "payload_version": 1,&amp;#13;
+  "notification_configuration_id": "nc-AeUQ2zfKZzW9TiGZ",&amp;#13;
+  "run_url": "https://app.terraform.io/app/acme-org/my-workspace/runs/run-FwnENkvDnrpyFC7M",&amp;#13;
+  "run_id": "run-FwnENkvDnrpyFC7M",&amp;#13;
+  "run_message": "Add five new queue workers",&amp;#13;
+  "run_created_at": "2019-01-25T18:34:00.000Z",&amp;#13;
+  "run_created_by": "sample-user",&amp;#13;
+  "workspace_id": "ws-XdeUVMWShTesDMME",&amp;#13;
+  "workspace_name": "my-workspace",&amp;#13;
+  "organization_name": "acme-org",&amp;#13;
+  "notifications": [&amp;#13;
+    {&amp;#13;
+      "message": "Run Canceled",&amp;#13;
+      "trigger": "run:errored",&amp;#13;
+      "run_status": "canceled",&amp;#13;
+      "run_updated_at": "2019-01-25T18:37:04.000Z",&amp;#13;
+      "run_updated_by": "sample-user"&amp;#13;
+    }&amp;#13;
+  ]&amp;#13;
+}&lt;/request_example&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description&gt;API is used to get the notification payload from Terraform. &lt;/short_description&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-06 08:08:15&lt;/sys_created_on&gt;&lt;sys_id&gt;e89acd632f334110a760a85df699b65a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;incident&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_e89acd632f334110a760a85df699b65a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 08:08:15&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Terraform Integration"&gt;f15acda32f334110a760a85df699b6e3&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1614429371</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>49114e232f374110a760a85df699b677</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181380eae3a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>incident</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>54cb85e3673341101817a14c965b19f4</update_guid>
+<update_guid_history>54cb85e3673341101817a14c965b19f4:1614429371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_1bda59272f734110a760a85df699b6ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Usage by Web API">5fda59272f734110a760a85df699b6e7</grid_canvas><height>10</height><portal_widget display_value="Created 2016-01-21 16:17:26">6364fbd29f811200ef4afa7dc67fcf69</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:14:15</sys_created_on><sys_id>1bda59272f734110a760a85df699b6ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>5fda59272f734110a760a85df699b6e7</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_1bda59272f734110a760a85df699b6ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:15</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>2118960330</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>4d114e232f374110a760a85df699b673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b1d790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>5fda59272f734110a760a85df699b6e7</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>5bda5927e97341107e5b9577d08016ec</update_guid>
+<update_guid_history>5bda5927e97341107e5b9577d08016ec:2118960330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2fa03d6f2fb34110a760a85df699b600</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;category=TFE run^state=8^EQ&lt;item display_value="TFE run" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="TFE run"/&gt;&lt;item display_value="Canceled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Terraform Cancel a Run&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    gs.info("Preparing to send TFE API request version 2" + " INCIDENT EVENTS BR " + current.number);
+    // On the Scripted Rest API that receives TFE notification, we put the json data on the incident's description
+    // In this block we will reverse that to a json object
+    var parser = new JSON();
+    var str = current.description;
+    var obj = parser.decode(str);
+    try {
+        var r = new sn_ws.RESTMessageV2('Terraform Notifications', 'Cancel a Run');
+		r.setLogLevel("all");
+
+		//add a run id to parameters of the message
+        r.setStringParameterNoEscape("run_id", obj.run_id);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+    } catch (ex) {
+        var message = ex.message;
+    } finally {
+        gs.info("API call to TFE was successful");
+        requestBody = r ? r.getRequestBody() : null;
+    }
+
+    gs.info("V2 Request Body: " + requestBody + " INCIDENT EVENTS BR " + current.number);
+    gs.info("V2 Response: " + responseBody + " INCIDENT EVENTS BR " + current.number);
+    gs.info("V2 HTTP Status: " + status + " INCIDENT EVENTS BR " + current.number);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-06 10:49:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2fa03d6f2fb34110a760a85df699b600&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Terraform Cancel a Run&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2fa03d6f2fb34110a760a85df699b600&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 11:07:26&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2fa03d6f2fb34110a760a85df699b600"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-689483861</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>4d114e232f374110a760a85df699b676</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138b2bc370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table>incident</table>
+<target_name>Terraform Cancel a Run</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>d5c4752723f341104f167ae697794523</update_guid>
+<update_guid_history>d5c4752723f341104f167ae697794523:-689483861,63743127e6f341101ee5f5124fd59549:-702752508,d403f163a3f3411087133df2b5268613:2102096164,4de07daf25b341109b0f5fc529de0607:342134939,afa03d6f8db341104a96a3ec4eb4be02:-206173096</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_6d4d61eb2fb34110a760a85df699b675</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Forcefully execute a run</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Terraform Notifications [ Forcefully execute a run ]</qualified_name><rest_endpoint>https://app.terraform.io/api/v2/runs/${run_id}/actions/force-execute</rest_endpoint><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:34:42</sys_created_on><sys_id>6d4d61eb2fb34110a760a85df699b675</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Forcefully execute a run</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_6d4d61eb2fb34110a760a85df699b675</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:34:42</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-120261660</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>81114e232f374110a760a85df699b675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813894c1ff0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Forcefully execute a run</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>ed4d61eb2fb341107ad0604c9ac19c76</update_guid>
+<update_guid_history>ed4d61eb2fb341107ad0604c9ac19c76:-120261660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_43065deb2f334110a760a85df699b62a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>Used to send notifications back to Terraform cloud.</description><name>Terraform Notifications</name><oauth2_profile/><protocol_name/><rest_endpoint>https://app.terraform.io/api/v2/runs</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 08:54:06</sys_created_on><sys_id>43065deb2f334110a760a85df699b62a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Terraform Notifications</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_43065deb2f334110a760a85df699b62a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:00:24</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-30869213</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>85114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181383e6fc60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Terraform Notifications</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>dcb7d163fa7341101b5fd4ac1a824fc1</update_guid>
+<update_guid_history>dcb7d163fa7341101b5fd4ac1a824fc1:-30869213,58c619ef273341109313e5f0532e00e6:-1671330412,085651ebf2334110e6ed82e5a7663430:-733779667,00461defc43341102b60b8130ea0a62c:1977011483</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_f15acda32f334110a760a85df699b6e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/zsca2/terraform_integration</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>Terraform Integration</name><namespace>zsca2</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>terraform_integration</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 08:02:32</sys_created_on><sys_id>f15acda32f334110a760a85df699b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Terraform Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_definition_f15acda32f334110a760a85df699b6e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 08:02:32</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>1384100238</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>85114e232f374110a760a85df699b677</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181380976290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Terraform Integration</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>b47acda3cd334110692a4e92c83e80c1</update_guid>
+<update_guid_history>b47acda3cd334110692a4e92c83e80c1:1384100238</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_tabs_e4577b569f811200ef4afa7dc67fcf00</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page display_value="PA Usage by Web API">5fda59272f734110a760a85df699b6e7</canvas_page><name>Usage by Web API</name><page display_value="PA Usage by Web API">422437929f811200ef4afa7dc67fcfe7</page><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-01-22 00:30:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e4577b569f811200ef4afa7dc67fcf00</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Usage by Web API</sys_name><sys_overrides/><sys_package display_value="API Analytics" source="com.glide.api_analytics">138aba6b45d10110a86630cf9552f3b7</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_tabs_e4577b569f811200ef4afa7dc67fcf00</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:15</sys_updated_on></pa_tabs></record_update>]]></payload>
+<payload_hash>-671759339</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>89114e232f374110a760a85df699b672</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b1e440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Usage by Web API</target_name>
+<type>Tab</type>
+<update_domain>global</update_domain>
+<update_guid>1fda5927a0734110b31dd380a80b43f5</update_guid>
+<update_guid_history>1fda5927a0734110b31dd380a80b43f5:-671759339,57da5927d57341105fa2a3c47622ccf4:-475027740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_17da59272f734110a760a85df699b6ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Usage by Web API">5fda59272f734110a760a85df699b6e7</grid_canvas><height>10</height><portal_widget display_value="Created 2016-01-21 16:17:26">e764fbd29f811200ef4afa7dc67fcf6a</portal_widget><posx>0</posx><posy>20</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:14:15</sys_created_on><sys_id>17da59272f734110a760a85df699b6ef</sys_id><sys_mod_count>1</sys_mod_count><sys_name>5fda59272f734110a760a85df699b6e7</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_17da59272f734110a760a85df699b6ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:28</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>428084443</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>89114e232f374110a760a85df699b673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b50e80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>5fda59272f734110a760a85df699b6e7</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>2aead927817341101ac9133f9693846b</update_guid>
+<update_guid_history>2aead927817341101ac9133f9693846b:428084443,97da5927ec734110675488c874235af0:192810905</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_headers_6a7651ab2f334110a760a85df699b6fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 08:56:18</sys_created_on><sys_id>6a7651ab2f334110a760a85df699b6fb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_headers_6a7651ab2f334110a760a85df699b6fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:22:08</sys_updated_on><value>application/vnd.api+json</value></sys_rest_message_headers></record_update>]]></payload>
+<payload_hash>268896279</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>89114e232f374110a760a85df699b676</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813889432c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>a16aa52bbfb341103bc0ff87676c8b4b</update_guid>
+<update_guid_history>a16aa52bbfb341103bc0ff87676c8b4b:268896279,c9c9edefc3734110721fab9773c78c41:672788682,14c619efd233411073fed429587bf9e4:268896279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_a2ccedab2fb34110a760a85df699b64a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>run_id</name><rest_message_function display_value="Discard a Run">19ccede72fb34110a760a85df699b637</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:32:35</sys_created_on><sys_id>a2ccedab2fb34110a760a85df699b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>run_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_a2ccedab2fb34110a760a85df699b64a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:32:35</sys_updated_on><type>string</type><value/></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-746754230</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>8d114e232f374110a760a85df699b675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813892d2bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>run_id</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>6accedabd5b341109dedb937cafb6a4b</update_guid>
+<update_guid_history>6accedabd5b341109dedb937cafb6a4b:-746754230</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_97da59272f734110a760a85df699b6ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Usage by Web API">5fda59272f734110a760a85df699b6e7</grid_canvas><height>10</height><portal_widget display_value="Created 2016-01-21 16:17:26">eb64fbd29f811200ef4afa7dc67fcf69</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:14:15</sys_created_on><sys_id>97da59272f734110a760a85df699b6ed</sys_id><sys_mod_count>1</sys_mod_count><sys_name>5fda59272f734110a760a85df699b6e7</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_97da59272f734110a760a85df699b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:29</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>-1444779969</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>c1114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b51580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>5fda59272f734110a760a85df699b6e7</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>26ead92758734110020e8b2be4976d70</update_guid>
+<update_guid_history>26ead92758734110020e8b2be4976d70:-1444779969,1bda59278f7341101bbb7a54931455ee:-1680053507</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d56b5d71c0a80164019d0e0be2cf784f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;incident events&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;priority/&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[if (current.operation() != 'insert' &amp;&amp; current.comments.changes()) {
+    if (!isConnect())
+        gs.eventQueue("incident.commented", current, gs.getUserID(), gs.getUserName());
+}
+
+if (current.operation() == 'insert') {
+    gs.eventQueue("incident.inserted", current, gs.getUserID(), gs.getUserName());
+}
+
+if (current.operation() == 'update' &amp;&amp; !current.comments.changes()) {
+    gs.eventQueue("incident.updated", current, gs.getUserID(), gs.getUserName());
+}
+
+if (!current.assigned_to.nil() &amp;&amp; current.assigned_to.changes()) {
+    gs.eventQueue("incident.assigned", current, current.assigned_to.getDisplayValue(), previous.assigned_to.getDisplayValue());
+}
+
+if (!current.assignment_group.nil() &amp;&amp; current.assignment_group.changes()) {
+    gs.eventQueue("incident.assigned.to.group", current, current.assignment_group.getDisplayValue(), previous.assignment_group.getDisplayValue());
+}
+
+
+if (current.priority.changes() &amp;&amp; current.priority == 1) {
+    gs.eventQueue("incident.priority.1", current, current.priority, previous.priority);
+}
+
+if (current.severity.changes() &amp;&amp; current.severity == 1) {
+    gs.eventQueue("incident.severity.1", current, current.severity, previous.severity);
+}
+
+if (current.escalation.changes() &amp;&amp; current.escalation &gt; previous.escalation &amp;&amp; previous.escalation != -1) {
+    gs.eventQueue("incident.escalated", current, current.escalation, previous.escalation);
+}
+
+if (current.active.changesTo(false)) {
+    gs.eventQueue("incident.inactive", current, current.incident_state, previous.incident_state);
+    gs.workflowFlush(current);
+}
+
+function isConnect() {
+    var transaction = GlideTransaction.get();
+    if (!transaction)
+        return false;
+
+    var request = transaction.getRequest();
+    if (!request)
+        return false;
+
+    var path = request.getRequestURI();
+    return path &amp;&amp; path.match(/\/api\/now\/connect/);
+}
+
+/*
+gs.info("Incident events BR triggered" + " INCIDENT EVENTS BR "+current.number +" cat:"+current.category + " resolved: "+current.resolved_at);
+
+if (current.category == 'TFE run' &amp;&amp; !current.resolved_at) {
+    gs.info("Preparing to send TFE API request" + " INCIDENT EVENTS BR "+current.number);
+    var requestBody;
+    var responseBody;
+    var status;
+    try {
+        // On the Scripted Rest API that receives TFE notification, we put the json data on the incident's description
+        // In this block we will reverse that to a json object
+        var parser = new JSON();
+        var str = current.description;
+        var obj = parser.decode(str);
+
+        // Creates message
+        var r = new sn_ws.RESTMessageV2();
+        r.setEndpoint("https://app.terraform.io/api/v2/runs/" + obj.run_id + "/actions/apply");
+		gs.info("Preparing to send TFE API request runid=" +obj.run_id+ " INCIDENT EVENTS BR "+current.number);
+        r.setHttpMethod("POST");
+        // Make sure you update the TFE token
+        r.setRequestHeader("Authorization", "Bearer " + "YOUR_TFE_TOKEN_HERE");
+        r.setRequestHeader('Content-Type', 'application/vnd.api+json');
+
+        var response = r.execute();
+        responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+        status = response.getStatusCode();
+    } catch (ex) {
+        responseBody = ex.getMessage();
+        status = '500';
+    } finally {
+        gs.info("API call to TFE was successful" + " INCIDENT EVENTS BR "+current.number);
+        requestBody = r ? r.getRequestBody() : null;
+    }
+    gs.info("Request Body: " + requestBody + " INCIDENT EVENTS BR "+current.number);
+    gs.info("Response: " + responseBody + " INCIDENT EVENTS BR "+current.number);
+    gs.info("HTTP Status: " + status + " INCIDENT EVENTS BR "+current.number);
+}
+
+
+//new
+if (current.category == 'TFE run' &amp;&amp; !current.resolved_at) {
+    gs.info("Preparing to send TFE API request version 2" + " INCIDENT EVENTS BR "+current.number);
+    try {
+        var r = new sn_ws.RESTMessageV2('Terraform Notifications', 'Send Notification');
+
+		r.setStringParameterNoEscape("run_id", "AAAAAAAAAAAAAA");
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+    } catch (ex) {
+        var message = ex.message;
+    } finally {
+        gs.info("API call to TFE was successful");
+        requestBody = r ? r.getRequestBody() : null;
+    }
+
+    gs.info("V2 Request Body: " + requestBody + " INCIDENT EVENTS BR "+current.number);
+    gs.info("V2 Response: " + responseBody + " INCIDENT EVENTS BR "+current.number);
+    gs.info("V2 HTTP Status: " + status + " INCIDENT EVENTS BR "+current.number);
+}
+
+*/]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fred.luddy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2004-10-26 13:27:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;d56b5d71c0a80164019d0e0be2cf784f&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_name&gt;incident events&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="System (apps/system1)" source="apps/system1"&gt;74f4722345110110a86630cf9552f399&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d56b5d71c0a80164019d0e0be2cf784f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 11:01:39&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d56b5d71c0a80164019d0e0be2cf784f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>95617362</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>c1114e232f374110a760a85df699b677</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138ad71010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table>incident</table>
+<target_name>incident events</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>a87379a30bf3411014e7ae54e425df88</update_guid>
+<update_guid_history>a87379a30bf3411014e7ae54e425df88:95617362,4e8a292bf0b34110b65bb298fcf4e33e:235003816,58032d6fde734110c19dc9c2f2054d87:2077268041,6062ad6f34734110c9addb76030c2126:235003816,adb0a96b1e734110d2419663cdc53c71:-2079644981,3970a9aba5734110c78fe7be4235b73e:624131238,b520a16b427341101b620adf68ebeef6:1654413050,bedf5de72f7341107688534c52afd17a:603051333,670f916bae7341109946c037dd92b447:-1324014290,9ab95563f6734110a4954836998002a8:-1236781820,16b95563ac7341105a71e2934b67a7a6:-112843027</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_5fda59272f734110a760a85df699b6e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Usage by Web API">422437929f811200ef4afa7dc67fcfe7</legacy_page><name>PA Usage by Web API</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 09:14:15</sys_created_on><sys_id>5fda59272f734110a760a85df699b6e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Usage by Web API</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_5fda59272f734110a760a85df699b6e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 09:14:15</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+<payload_hash>-724452956</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>c5114e232f374110a760a85df699b673</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181384b1cad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>PA Usage by Web API</target_name>
+<type>Grid Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>9bda59273c734110cbe377cd2f3890e9</update_guid>
+<update_guid_history>9bda59273c734110cbe377cd2f3890e9:-724452956</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_headers_2c5615ab2f334110a760a85df699b6e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 08:56:18</sys_created_on><sys_id>2c5615ab2f334110a760a85df699b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_headers_2c5615ab2f334110a760a85df699b6e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 08:56:18</sys_updated_on><value>Bearer INSERT_TERRAFORM_CLOUD_TOKEN</value></sys_rest_message_headers></record_update>]]></payload>
+<payload_hash>-1145248330</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>c5114e232f374110a760a85df699b676</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181383aac0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Authorization</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>54c619efad334110f303926ca87819e2</update_guid>
+<update_guid_history>54c619efad334110f303926ca87819e2:-1145248330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_900d256b2fb34110a760a85df699b6c8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>run_id</name><rest_message_function display_value="Forcefully cancel a run">3efcedab2fb34110a760a85df699b65c</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 10:33:30</sys_created_on><sys_id>900d256b2fb34110a760a85df699b6c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>run_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_900d256b2fb34110a760a85df699b6c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:33:30</sys_updated_on><type>string</type><value/></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1207840371</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>c9114e232f374110a760a85df699b675</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1813893ac0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>run_id</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>540d256bafb341106a740853fa74bcc9</update_guid>
+<update_guid_history>540d256bafb341106a740853fa74bcc9:-1207840371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_404651ab2f334110a760a85df699b610</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Apply a Run</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Terraform Notifications [ Apply a Run ]</qualified_name><rest_endpoint>https://app.terraform.io/api/v2/runs/${run_id}/actions/apply</rest_endpoint><rest_message display_value="Terraform Notifications">43065deb2f334110a760a85df699b62a</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 08:54:06</sys_created_on><sys_id>404651ab2f334110a760a85df699b610</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Apply a Run</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_404651ab2f334110a760a85df699b610</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 10:31:16</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-225360629</payload_hash>
+<remote_update_set display_value="zscaler">85114e232f374110a760a85df699b672</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-06-06 12:01:13</sys_created_on>
+<sys_id>cd114e232f374110a760a85df699b674</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18138919ee00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-06-06 12:01:13</sys_updated_on>
+<table/>
+<target_name>Apply a Run</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>177cad27fcb34110de9ba753636687c8</update_guid>
+<update_guid_history>177cad27fcb34110de9ba753636687c8:-225360629,e1bb212370b34110f6f71f648d68d3ab:1394704343,38e32123bdb34110cebe13432b607e71:1920777476,cc83a9eff173411016fde5d75eecbe11:1067544654,a697d1636f7341109f75a2671f64a58b:-246944692,444651abc2334110d1fc7b7f066b0f12:1586835432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
