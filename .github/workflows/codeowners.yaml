@@ -38,4 +38,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'zscaler-bd-sa'
     name: Validate CODEOWNERS
-    uses: zscaler-bd-sa/GitHub-Actions/.github/workflows/codeowners.yaml@master
+    uses: HariSekhon/GitHub-Actions/.github/workflows/codeowners.yaml@master
