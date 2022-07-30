@@ -32,17 +32,17 @@
 	$sasVHDurl=$sourceVhdURL+'?'+$SasToken
 
 
-        echo 'start the copy'
+        Write-Output 'Start the copy'
 	Start-AzStorageBlobCopy  -AbsoluteUri $sasVHDurl -DestContainer $destContainerName -DestBlob $destBlob -DestContext $destContext -Force
-	echo 'start chekcking '
+	Write-Output 'Start chekcking '
 	$vhdCopyStatus=Get-AzStorageBlobCopyState -Context $destContext -Blob $destBlob -Container $destContainerName
 	While($vhdCopyStatus.Status -ne "Success") {
     		if($vhdCopyStatus.Status -ne "Pending") {
-        		echo "Error copying the VHD"
+        		Write-Output "Error Copying the VHD"
         		exit
         		}
 	$vhdCopyStatus=Get-AzStorageBlobCopyState -Context $destContext -Blob $destBlob -Container $destContainerName
-    		echo "VHD copying is in progress" $vhdCopyStatus.BytesCopied "bytes copied of" $vhdCopyStatus.TotalBytes
+        Write-Output "VHD Copying is in Progress" $vhdCopyStatus.BytesCopied "bytes copied of" $vhdCopyStatus.TotalBytes
     		sleep 5
 			}
-	echo "The VHD has been successfully copied"
+                        Write-Output "The VHD has been successfully copied"
