@@ -34,6 +34,6 @@ jobs:
   validate:
     # github.event.repository context not available in scheduled workflows
     #if: github.event.repository.fork == false
-    if: github.repository_owner == 'willguibr'
+    if: github.repository_owner == 'HariSekhon'
     name: Validate CODEOWNERS
-    uses: willguibr/GitHub-Actions/.github/workflows/codeowners.yaml@master
+    uses: HariSekhon/GitHub-Actions/.github/workflows/codeowners.yaml@master
