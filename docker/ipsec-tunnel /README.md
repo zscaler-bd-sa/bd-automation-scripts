@@ -10,7 +10,7 @@ docker run  --rm \
             -e TARGET="" \
             -p 500:500 \
             -p 4500:4500 \
-            willguibr/ipsec-tunnel:latest
+            willguibr/zia-ipsec-tunnel:latest
 ```
 
 # Build
